@@ -3,7 +3,7 @@
 FROM golang:alpine
 
 ENV ZEUS_TOKEN=8dcccc00
-ENV USER=stelouielocal
+ENV USER=stelouiegce3
 
 # Copy the local package files to the container's workspace.
 ADD src/github.com/stephenrlouie/web /go/src/github.com/stephenrlouie/web
